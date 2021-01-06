@@ -29,21 +29,25 @@ nav a{
 }
 section{
     height: 550px;
+    margin-bottom: 50px;
     /* border: 1px solid blue; */
 }
 h1{
     font-size: 50px;
     font-weight: 900;
     margin: 0;
-    font-stretch: extra-condensed;
 }
 h2{
     font-size: 40px;
     font-weight: 800;
 }
+
 p{
     padding-bottom: 20px;
     padding-left: 0;
+}
+footer{
+    margin-top: 85px;
 }
 .container{
     width: 80%;
@@ -68,34 +72,86 @@ p{
 .blue-highlight{
     color: #363958;
 }
-.orange-highlight{
-    color: #F46060
+.magenta-highlight{
+    color: DarkMagenta;
 }
 .link-button{
     text-decoration: none;
-    background-color: orangered;
+    background-color: DarkMagenta;
     padding: 10px 30px;
     border-radius: 5px;
     color: white;
-    background-image: linear-gradient(45deg,rgb(219, 77, 26),rgb(240, 135, 116));
+    background-image: linear-gradient(45deg,DarkMagenta,rgb(164, 89, 201));
 }
 .show-off{
     background-color: rgb(224, 224, 224);
+    padding: 20px 0;
+    height: 700px;
     text-align: center;
 }
+.show-off h2{
+    margin-top: 45px;
+}
 .one-third-width{
-    width: 30%;
+    width: 370px;
     float: left;
     background-color: white;
-    margin-left: 32px;
+    margin-top: 35px;
+    margin-left: 38px;
     box-shadow: 10px 10px 40px grey;
     border-radius: 10px;
-    height: 70%;
+    height: 374px;
 }
 
 .one-third-width img{
-    width: 90%;
+    width: 343.54px;
+    height: 213.23;
     padding-top: 10px;
 }
-
+.bottom-section{
+    height: 600px;
+    text-align: center;
+}
+.chat-area{
+    height: 225px;
+    width: 906px;
+    margin: 100px auto;
+    margin-bottom: 0;
+    border-radius: 30px;
+    background-image: url("images/workInquiry.png");
+    background-repeat: no-repeat;
+    background-size: 906px 225px;
+}
+.chat-area h1{
+    padding-top: 79px;
+    padding-left: 75px;
+    font-size: 45px;
+}
+.chat-area .half-width{
+    width: 45%;
+}
+.chat-area #button-container{
+    text-align: right;
+    padding: 98px 20px;
+}
+.chat-area .link-button{
+    height: 60px;
+    width: 134px;
+}
+.gray-highlight{
+    color: gray;
+}
+.bottom-section h2{
+    font-size: 36px;
+    margin: 10px;
+}
+.bottom-section h3{
+    font-size: 24px;
+    margin: 10px;
+}
+.image-container img{
+    height: 40px;
+    width: 40px;
+    margin: 10px;
+}
 
